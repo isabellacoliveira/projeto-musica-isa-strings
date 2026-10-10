@@ -20,11 +20,11 @@ function App() {
           isa<span>.</span>strings
         </a>
         <nav className={isMenuOpen ? 'navigation is-open' : 'navigation'} aria-label="Navegacao principal">
-          <a href="#trajetoria" onClick={() => setIsMenuOpen(false)}>Trajetoria</a>
+          <a href="#trajetoria" onClick={() => setIsMenuOpen(false)}>Trajetória</a>
           <a href="#instrumentos" onClick={() => setIsMenuOpen(false)}>Instrumentos</a>
           <a href="#hoje" onClick={() => setIsMenuOpen(false)}>Hoje</a>
-          <a href="#videos" onClick={() => setIsMenuOpen(false)}>Videos</a>
-          <a href="#pedidos" onClick={() => setIsMenuOpen(false)}>Peca uma musica</a>
+          <a href="#videos" onClick={() => setIsMenuOpen(false)}>Vídeos</a>
+          <a href="#pedidos" onClick={() => setIsMenuOpen(false)}>Peça uma música</a>
         </nav>
         <a className="header-social" href={site.instagramUrl} target="_blank" rel="noreferrer" aria-label="Instagram de isa.strings">
           <AtSign size={18} />
@@ -41,8 +41,8 @@ function App() {
           <p className="hero-title">{site.title}</p>
           <p className="hero-description">{site.description}</p>
           <div className="hero-actions">
-            <a className="button button-primary" href="#trajetoria">Conheca minha trajetoria <ArrowDownRight size={18} /></a>
-            <a className="button button-secondary" href="#videos"><Play size={16} fill="currentColor" /> Assistir videos</a>
+            <a className="button button-primary" href="#trajetoria">Conheça minha trajetória <ArrowDownRight size={18} /></a>
+            <a className="button button-secondary" href="#videos"><Play size={16} fill="currentColor" /> Assistir vídeos</a>
           </div>
         </div>
         <div className="hero-portrait" aria-label="Espaco reservado para foto de Isa Oliveira">
@@ -57,7 +57,7 @@ function App() {
       <VideosSection />
       <GallerySection />
       <MusicRequestForm />
-      <footer><a className="wordmark" href="#inicio">isa<span>.</span>strings</a><p>Uma historia musical em movimento.</p><a href={site.instagramUrl} target="_blank" rel="noreferrer">@isa.strings</a></footer>
+      <footer><a className="wordmark" href="#inicio">isa<span>.</span>strings</a><p>Uma história musical em movimento.</p><a href={site.instagramUrl} target="_blank" rel="noreferrer">@isa.strings</a></footer>
     </main>
   )
 }

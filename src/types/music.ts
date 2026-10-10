@@ -27,9 +27,9 @@ export interface Video {
   id: string
   title: string
   publishedAt: string
-  description: string
-  thumbnailUrl: string
+  instrumento: string
   url: string
+  thumbnail: string
 }
 
 export interface MusicRequest {
