@@ -32,6 +32,17 @@ export interface Video {
   thumbnail: string
 }
 
+export interface Presentation {
+  ano: number
+  mes: string
+  titulo?: string
+  grupo: string
+  local: string
+  cidade: string
+  instrumento: string
+  imagem: string
+}
+
 export interface MusicRequest {
   name: string
   instagram: string

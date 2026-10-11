@@ -3,10 +3,10 @@ import { useState } from 'react'
 import { site } from './data/site'
 import './App.css'
 import { CurrentSection } from './components/CurrentSection'
-import { GallerySection } from './components/GallerySection'
 import { GroupsSection } from './components/GroupsSection'
 import { InstrumentsSection } from './components/InstrumentsSection'
 import { MusicRequestForm } from './components/MusicRequestForm'
+import { PresentationsSection } from './components/PresentationsSection'
 import { TimelineSection } from './components/TimelineSection'
 import { VideosSection } from './components/VideosSection'
 
@@ -54,8 +54,8 @@ function App() {
       <InstrumentsSection />
       <GroupsSection />
       <CurrentSection />
+      <PresentationsSection />
       <VideosSection />
-      <GallerySection />
       <MusicRequestForm />
       <footer><a className="wordmark" href="#inicio">isa<span>.</span>strings</a><p>Uma história musical em movimento.</p><a href={site.instagramUrl} target="_blank" rel="noreferrer">@isa.strings</a></footer>
     </main>

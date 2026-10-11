@@ -1,0 +1,94 @@
+{
+  "apresentacoes": [
+    {
+      "ano": 2026,
+      "mes": "Outubro",
+      "titulo": "Apresentação para Crianças: Camerata Jovem Santista",
+      "grupo": "Camerata Jovem Santista",
+      "local": "Teatro Municipal Raul Cortez",
+      "cidade": "Mongaguá",
+      "instrumento": "Violoncelo",
+      "imagem": "mongagua.png"
+    },
+    {
+      "ano": 2026,
+      "mes": "Setembro",
+      "titulo": "3º Sarau Café com Leite",
+      "grupo": "",
+      "local": "UNIASSELVI",
+      "cidade": "Praia Grande",
+      "instrumento": "Violão",
+      "imagem": "sarau-cafe-com-leite.png"
+    },
+    {
+      "ano": 2026,
+      "mes": "Setembro",
+      "titulo": "Brisamar Shopping: Orquestra Lana de Castro",
+      "grupo": "Orquestra Lana de Castro",
+      "local": "Praiamar Shopping",
+      "cidade": "São Vicente",
+      "instrumento": "Violoncelo",
+      "imagem": "brisamar.png"
+    },
+    {
+      "ano": 2026,
+      "mes": "Agosto",
+      "titulo": "Encontro Maestria",
+      "grupo": "",
+      "local": "Buffet Comemorart",
+      "cidade": "Praia Grande",
+      "instrumento": "Violoncelo",
+      "imagem": "encontro-maestria-2.png"
+    },
+    {
+      "ano": 2026,
+      "mes": "Julho",
+      "titulo": "Workshop 10 Anos",
+      "grupo": "Camerata Jovem Santista",
+      "local": "Teatro Guarani",
+      "cidade": "Santos",
+      "instrumento": "Violoncelo",
+      "imagem": "workshop-10.png"
+    },
+    {
+      "ano": 2026,
+      "mes": "Junho",
+      "titulo": "Concha Acústica: Camerata Jovem Santista",
+      "grupo": "Camerata Jovem Santista",
+      "local": "Concha Acústica",
+      "cidade": "Santos",
+      "instrumento": "Violoncelo",
+      "imagem": "concha-acustica.png"
+    },
+    {
+      "ano": 2026,
+      "mes": "Junho",
+      "titulo": "Sarau: Projeto Som das Cordas",
+      "grupo": "",
+      "local": "Associação Vila São Jorge",
+      "cidade": "Praia Grande",
+      "instrumento": "Violão",
+      "imagem": "cafe-com-leite.png"
+    },
+    {
+      "ano": 2026,
+      "mes": "Junho",
+      "titulo": "Apresentação Solo",
+      "grupo": "",
+      "local": "Conservatório de Cubatão",
+      "cidade": "Cubatão",
+      "instrumento": "Violão",
+      "imagem": "violao.png"
+    },
+    {
+      "ano": 2026,
+      "mes": "Junho",
+      "titulo": "Encontro Maestria",
+      "grupo": "",
+      "local": "Buffet Comemorart",
+      "cidade": "Praia Grande",
+      "instrumento": "Violoncelo",
+      "imagem": "encontro-maestria.png"
+    }
+  ]
+}
