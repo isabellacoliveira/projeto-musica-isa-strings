@@ -2,8 +2,6 @@ import { ArrowDownRight, AtSign, Guitar, Menu, Play, X } from 'lucide-react'
 import { useState } from 'react'
 import { site } from './data/site'
 import './App.css'
-import { CurrentSection } from './components/CurrentSection'
-import { GroupsSection } from './components/GroupsSection'
 import { InstrumentsSection } from './components/InstrumentsSection'
 import { MusicRequestForm } from './components/MusicRequestForm'
 import { PresentationsSection } from './components/PresentationsSection'
@@ -22,7 +20,6 @@ function App() {
         <nav className={isMenuOpen ? 'navigation is-open' : 'navigation'} aria-label="Navegacao principal">
           <a href="#trajetoria" onClick={() => setIsMenuOpen(false)}>Trajetória</a>
           <a href="#instrumentos" onClick={() => setIsMenuOpen(false)}>Instrumentos</a>
-          <a href="#hoje" onClick={() => setIsMenuOpen(false)}>Hoje</a>
           <a href="#videos" onClick={() => setIsMenuOpen(false)}>Vídeos</a>
           <a href="#pedidos" onClick={() => setIsMenuOpen(false)}>Peça uma música</a>
         </nav>
@@ -52,8 +49,6 @@ function App() {
       </section>
       <TimelineSection />
       <InstrumentsSection />
-      <GroupsSection />
-      <CurrentSection />
       <PresentationsSection />
       <VideosSection />
       <MusicRequestForm />
